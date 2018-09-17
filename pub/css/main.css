@@ -1,0 +1,363 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+   .navbar-button { margin-right: 5px; margin-left: 5px; margin-top: 2px; }
+   .nav-icon { font-size: 1.0em; }
+   #sidebar-toggle { position: absolute; left: 0; }
+	#nav-logo { margin-top: -9px; max-height: 35px; max-width: 140px; }
+	.footer-logo { max-height: 20px; margin-top: 1px; margin-left: -15px; }
+	.usr-avi { border: 2px solid #fff; }
+	form#location { margin-top: 7px; }
+	td.tbl-time { width: 10%; text-align: center; vertical-align: middle; }
+	td.tbl-content { width: 90%; }
+	/* font awesome icon colors */
+	.ico-silver { color: silver; }
+	.ico-red { color: red; }
+	.ico-yellow { color: goldenrod; }
+	.ico-green { color: green; }
+	/* circles */
+	#sq-container { max-height: 18px; display: inline-block; float: right; }
+	.shape-margins { margin-top: 5px; margin-right: 5px; }
+	.square { min-width: 10px; min-height: 10px; width: 10px; border-radius: 50%; margin: 1px 1px 0 0; display: inline-block; cursor: pointer; }
+	.adjustment { background: blue; color: #fff; }
+	.consultation { background: green; color: #fff; }
+	.xray { background: orange; color: #fff; }
+	.exam { background: purple; color: #fff; }
+	.report { background: goldenrod; color: #fff; }
+	.weight { background: silver; $color: #fff; }
+	/* triangles up */
+	.blue-up {
+		width: 0;
+		height: 0;
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+		border-bottom: 10px solid blue;
+	}
+	.pink-up {
+		width: 0;
+		height: 0;
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+		border-bottom: 10px solid pink;
+	}
+	/* triangles down*/
+	.green-down {
+		width: 0;
+		height: 0;
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+		border-top: 10px solid green;
+	}
+	.yellow-down {
+		width: 0;
+		height: 0;
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+		border-top: 10px solid yellow;
+	}
+	.orange-down {
+		width: 0;
+		height: 0;
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+		border-top: 10px solid orange;
+	}
+	.red-down {
+		width: 0;
+		height: 0;
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+		border-top: 10px solid red;
+	}
+	.silver-down {
+		width: 0;
+		height: 0;
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+		border-top: 10px solid silver;
+	}
+	/* squares */
+	.green-square {
+		width: 10px;
+		height: 10px;
+		background: green;
+	}
+	.yellow-square {
+		width: 10px;
+		height: 10px;
+		background: yellow;
+	}
+	.orange-square {
+		width: 10px;
+		height: 10px;
+		background: orange;
+	}
+	.silver-square {
+		width: 10px;
+		height: 10px;
+		background: silver;
+	}
+	.red-square {
+		width: 10px;
+		height: 10px;
+		background: red;
+	}
+	ul#nav-footer li.active { text-decoration: underline; }
+	/* settings panels */
+	#quick-links {
+		background: #dd4814;
+		color: #fff;
+	}
+	#quick-links li {
+		border: 1px solid transparent;
+		margin-right: -1px;
+	}
+	#quick-links li:hover,
+	#quick-links li.active {
+		border: 1px solid #fff;
+	}
+	#cal-container {
+		min-height: 80%;
+		height: 80%;
+	}
+	.fa-level-down { margin-top: -5px; display: block; }
+	.settings {
+		position: absolute;
+		top: -10;
+		display: none;
+		overflow: hidden;
+		z-index: 100;
+	}
+	.fa-level-down { display: block; }
+	.settings .setting {
+		background: inherit !important;
+		border: 0px;
+		padding: 0.1em 0.5em 0.5em 0.5em;
+		margin: 0 0 0 -1.1em;
+		min-width: 100%;
+		width: inherit;
+	}
+	// appointments
+	.event-views table td {
+		text-align: center;
+		vertical-align: middle;
+	}
+/* -------------- form notes -------------- */
+	.note-container {
+		top: -21px;
+		left: -35px;
+		background: #eee;
+		border-bottom-left-radius: 3px 3px;
+		border-bottom-right-radius: 3px 3px;
+		border: 1px solid #eee;
+	}
+	.block-content {
+		position: absolute;
+		top: 10px; left: 10;
+		width: 95%; height: 95% !important;
+		height: inherit;
+		margin: 0.5em auto;
+		z-index: 150;
+	}
+	.block-content .panel { margin-left: 5px; }
+	/* scrolling for parent panels */
+	.tab-content > .parent-panel {
+		min-height: 392px !important;
+		overflow-y: auto;
+	}
+	/* scrolling for child panels */
+	.child-panel {
+		height: 251px;
+		overflow-y:  auto;
+	}
+	.controller-content {
+		min-height: 400px !important;
+		height: 100%;
+		display: block;
+	}
+	a.tab-href::first-letter {
+		font-weight: bold;
+	}
+	/* edit appointment controls */
+	label.repeat { color: #ccc; }
+	.bg-white { background: #fff !important; color: #000; }
+	.tn-appointment { width: 100%; }
+	/* scroll opacity */
+	.opacity-scroll {
+		opacity: 0.1;
+	}
+/**********************************/
+/* new sidebar slider panels */
+	.sidebar {
+		position: fixed;
+		background: #dd4814;
+		top: 60px;
+		min-width: 68%;
+		width: 68%;
+		height: auto;
+		display: none;
+		z-index: 99;
+	}
+	.sidebar .panel {
+		margin: 15px;
+	}
+	#sidebar-left {
+		left: 0;
+		border-top-right-radius: 3px 3px;
+		border-bottom-right-radius: 3px 3px;
+		z-index: 101;
+	}
+	#sidebar-right {
+		right: 0;
+		border-top-left-radius: 3px 3px;
+		border-bottom-left-radius: 3px 3px;
+		z-index:101;
+	}
+/**********************************/
+/* TYPEAHEAD */
+/* custom styles for the typeahead */
+
+.tt-dropdown-menu {
+  margin-top: 0 !important;
+  text-align: left;
+}
+
+.typeahead,
+.tt-query,
+.tt-hint {
+  width: 500px;
+  height: 30px;
+  padding: 8px 12px;
+  font-size: 16px;
+  line-height: 30px;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  outline: none;
+}
+
+.typeahead {
+  background-color: #fff;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+}
+
+.typeahead:focus {
+/*  border: 2px solid #0097cf; */
+}
+
+.tt-query {
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.tt-hint {
+  color: #999
+}
+
+.tt-dropdown-menu {
+  width: 500px;
+  max-height: 300px;
+  overflow-y: auto;
+  margin-top: 12px;
+  padding: 8px 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+     -moz-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+          box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.tt-suggestion {
+  padding: 3px 20px;
+/*  font-size: 0.9em; */
+  line-height: 24px;
+}
+
+.tt-suggestion.tt-is-under-cursor {
+  color: #fff;
+  background-color: #dd4814;
+
+}
+
+.tt-suggestion p {
+  margin: 0;
+}
+
+/* styles for dropdown list: custom template */
+.repo-language {
+  float: right;
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+.repo-name {
+	font-size: 1.0em;
+	font-weight: bold;
+}
+
+.repo-description {
+  font-size: 0.8em;
+}
+/* quick invoices */
+.product-insert {
+ 	font-size: 81%;
+}
+#product-details {
+	display: none;
+}
+.quick-invoice {
+	display: none;
+}
+#invoice_header .alert {
+	background: #fff;
+}
+#invoice_header .alert-info {
+	color: #3a87ad;
+}
+#invoice_header .alert-success {
+	color: #468847;
+}
+.img-invoice {
+	max-width: 275px !important;
+}
+img.cc-icons { max-height: 30px !important; }
+#cc_cardholder {
+	font-style: italic;
+	font-weight: 600;
+	color: #298537;
+}
+
+@media print and (color) {
+   * {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+   }
+	.list-group-item-info,
+	.alert-info {
+		color: #468847;
+	}
+	.list-group-item-success,
+	.alert-success {
+		color: #3a87ad;
+	}
+}
+
+.trailer {
+	font-size: 0.8em;
+	font-style: italic;
+	color: #0e0e0e;
+}
+/*
+ #tab-invoices select optgroup,
+ #tab-invoices select option {
+ 	font-size: 85%;
+ }
+*/

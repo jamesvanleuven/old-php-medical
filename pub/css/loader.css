@@ -1,0 +1,23 @@
+@font-face {
+  font-family: Charcoal;
+  src: url('../../pub/fonts/Charcoal.ttf');
+}
+
+body {
+	font-family: Charcoal;
+	font-size: 1.2em;
+	background: #333333;
+	color: #ccc;
+}
+
+#terminal-container {
+	border-left: 1px solid #2DB200;
+}
+
+.error {
+	color: #FF4D4D;
+}
+
+.success {
+	color: #36D900;
+}
